@@ -265,6 +265,11 @@
     # create the config file. I use nano as find vim is not easy 
     sudo nano /etc/nginx/nginx.conf
     
+    
+    #########
+    # NGINX #
+    #########
+    
     # Please edit all server IPs, domain and key location accordingly. 
     
         ```
