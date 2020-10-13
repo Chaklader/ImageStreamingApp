@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+package com.grpc.protobuf;
+
+
+message DownloadFileRequest {
+  string url = 1;
+}
+
+message DataChunk {
+    bytes data = 1;
+    int32 size = 2;
+}
+
+service FileService {
+  rpc downloadFile (DownloadFileRequest) returns (stream DataChunk);
+}

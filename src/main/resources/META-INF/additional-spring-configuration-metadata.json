@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "fileservice.grpc.host",
+      "type": "java.lang.String",
+      "description": "Description for fileservice.grpc.host."
+    },
+    {
+      "name": "fileservice.grpc.port",
+      "type": "java.lang.String",
+      "description": "Description for fileservice.grpc.port."
+    }
+  ]
+}
